@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sauce Demo,Chrome 118.0.0.0,,,2023-10-20 23:43:13,2023-10-20 23:43:24,10.696s,FAILED
+,,,,,,,
+Test Cases/Add item to Cart and Checkout,Chrome 118.0.0.0,,,2023-10-20 23:43:13,2023-10-20 23:43:24,10.453s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-20 23:43:13,2023-10-20 23:43:23,9.998s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart""))",Chrome 118.0.0.0,,,2023-10-20 23:43:23,2023-10-20 23:43:24,0.094s,FAILED
