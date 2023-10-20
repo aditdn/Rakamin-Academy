@@ -1,0 +1,23 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sauce Demo,Chrome 118.0.0.0,,,2023-10-20 23:56:10,2023-10-20 23:56:36,26.177s,FAILED
+,,,,,,,
+Test Cases/Checkout,Chrome 118.0.0.0,,,2023-10-20 23:56:10,2023-10-20 23:56:27,17.228s,PASSED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-20 23:56:11,2023-10-20 23:56:19,8.552s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart""))",Chrome 118.0.0.0,,,2023-10-20 23:56:19,2023-10-20 23:56:20,0.489s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1""))",Chrome 118.0.0.0,,,2023-10-20 23:56:20,2023-10-20 23:56:20,0.479s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1_2""))",Chrome 118.0.0.0,,,2023-10-20 23:56:20,2023-10-20 23:56:21,0.495s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1_2_3""))",Chrome 118.0.0.0,,,2023-10-20 23:56:21,2023-10-20 23:56:21,0.486s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4""))",Chrome 118.0.0.0,,,2023-10-20 23:56:21,2023-10-20 23:56:22,0.497s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Add to cart_1_2_3_4_5""))",Chrome 118.0.0.0,,,2023-10-20 23:56:22,2023-10-20 23:56:22,0.473s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/a_6""))",Chrome 118.0.0.0,,,2023-10-20 23:56:22,2023-10-20 23:56:23,0.506s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Checkout""))",Chrome 118.0.0.0,,,2023-10-20 23:56:23,2023-10-20 23:56:23,0.474s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_firstName""), ""test"")",Chrome 118.0.0.0,,,2023-10-20 23:56:23,2023-10-20 23:56:24,0.789s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_lastName""), ""123"")",Chrome 118.0.0.0,,,2023-10-20 23:56:24,2023-10-20 23:56:25,0.795s,PASSED
+"setText(findTestObject(""Object Repository/Page_Swag Labs/input_Checkout Your Information_postalCode""), ""12345"")",Chrome 118.0.0.0,,,2023-10-20 23:56:25,2023-10-20 23:56:26,0.810s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/input_Cancel_continue""))",Chrome 118.0.0.0,,,2023-10-20 23:56:26,2023-10-20 23:56:26,0.488s,PASSED
+"click(findTestObject(""Object Repository/Page_Swag Labs/button_Finish""))",Chrome 118.0.0.0,,,2023-10-20 23:56:26,2023-10-20 23:56:27,0.484s,PASSED
+closeBrowser(),Chrome 118.0.0.0,,,2023-10-20 23:56:27,2023-10-20 23:56:27,0.794s,PASSED
+,,,,,,,
+Test Cases/Filter,Chrome 118.0.0.0,,,2023-10-20 23:56:27,2023-10-20 23:56:36,8.706s,FAILED
+"callTestCase(findTestCase(""Login""), [:], STOP_ON_FAILURE)",Chrome 118.0.0.0,,,2023-10-20 23:56:28,2023-10-20 23:56:35,6.941s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Page_Swag Labs/select_Name (A to Z)Name (Z to A)Price (low_f7e90a""), ""za"", true)",Chrome 118.0.0.0,,,2023-10-20 23:56:35,2023-10-20 23:56:36,1.519s,FAILED
